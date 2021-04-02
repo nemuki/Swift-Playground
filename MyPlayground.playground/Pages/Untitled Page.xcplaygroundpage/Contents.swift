@@ -19,3 +19,6 @@ print(3 * 3)
 print(6 / 2)
 print(7 % 3)
 
+//・P79：練習問題3-1（変数）
+var x = 2
+print(x * x)
