@@ -18,7 +18,28 @@ print(5 - 3)
 print(3 * 3)
 print(6 / 2)
 print(7 % 3)
+print("-----")
 
 //・P79：練習問題3-1（変数）
 var x = 2
 print(x * x)
+print("-----")
+
+//・P89：練習問題3-2（for文）
+var sum = 0
+for i in 1 ... 100 {
+    sum += i
+}
+print(sum)
+print("-----")
+
+//・P91：実習3-4の九九を計算をforの入れ子で行うコードの写経
+for x in 1 ... 9 {
+    for n in 1 ... 9 {
+        print(x * n)
+    }
+}
+print("-----")
+
+//・P102：練習問題4-1（変数の型）
+
